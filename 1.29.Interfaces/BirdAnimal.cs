@@ -1,6 +1,6 @@
 ﻿namespace Animals
 {
-    public class BirdAnimal : AbstractAnimal, IFlyer
+    public class BirdAnimal : AbstractAnimal, IFlyer, ISwimmer
     {
         public BirdAnimal(string name)
         {
@@ -22,6 +22,11 @@
         public void Fly()
         {
             Console.WriteLine($"{Name}: I can fly");
+        }
+
+        public void Swim()
+        {
+            Console.WriteLine($"{Name}: I can swim on the surface of the water");
         }
     }
 }

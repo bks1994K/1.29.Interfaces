@@ -25,7 +25,8 @@ AbstractAnimal[] animals = new AbstractAnimal[]
     {
     new FishAnimal ("Nemo"),
     new FishAnimal ("Dori"),
-    new PrimateAnimal("monkey")
+    new PrimateAnimal("monkey"),
+    new BirdAnimal("waterBird")
     };
 for (int i = 0; i < animals.Length; i++)
 {
